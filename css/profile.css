@@ -53,7 +53,7 @@ a:hover {
     color: #888;
     position: relative;
     z-index: 2;
-    background-color: #eb4847;
+    background-color: #402258; --#eb4847
     padding: 250px 0;
 }
 .tb-footer {
@@ -105,7 +105,7 @@ a:hover {
     font-size: 16px;
     font-weight: lighter !important;
     color: #ffffff !important;
-    background-color: #eb4847;
+    background-color: #402258; --#eb4847
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -118,8 +118,8 @@ a:hover {
 .tb-btn-bbg.active,
 .open .dropdown-toggle.tb-btn-bbg {
     border-color: transparent;
-    color: #fff !important;
-    background-color: #db3332 !important;
+    color: #402258 !important;
+    background-color: #fff !important; --#db3332
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
