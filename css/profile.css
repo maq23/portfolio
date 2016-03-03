@@ -67,6 +67,33 @@ a:hover {
     display: inline-block;
 }
 
+.contact {
+    text-decoration: none;
+    text-transform: lowercase;
+    display: inline-block;
+    font-size: 1.5em;
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    border: double;
+}
+
+.contact a {
+    text-decoration: none;
+    text-transform: lowercase;
+    display: inline-block;
+    font-size: 1em;
+    color: white;
+}
+
+.contact a:hover {
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: yellow;
+    text-decoration: underline;
+}
+
 /*****************************/
 /***** BUTTONS *****/
 /*****************************/
