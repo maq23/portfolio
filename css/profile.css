@@ -87,11 +87,11 @@ a:hover {
 }
 
 .contact a:hover {
-    font-size: 2em;
+    font-size: 1.25em;
     text-decoration: none;
     text-transform: uppercase;
-    color: yellow;
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 
 /*****************************/
@@ -173,8 +173,8 @@ fieldset[disabled] .tb-btn-bbg.active {
 .tb-btn-bb:active,
 .tb-btn-bb.active,
 .open .dropdown-toggle.tb-btn-bb {
-    border-color: #fff;
-    color: #eb4847 !important;
+    border-color: red;
+    color: red !important; --#eb4847
     background-color: #fff !important;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
