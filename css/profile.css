@@ -30,7 +30,7 @@ a:hover {
     color: #eb4847;
 }
 #tb-imagebg {
-    background: #fff url('../img/mnlth.jpg') top left;
+    background: #fff url('../img/mnlth.jpg') center;
     background-attachment: scroll;
     background-position: center center;
     background-repeat: none;
@@ -137,29 +137,6 @@ a:hover {
     transition: all .3s;
     font-weight: 400;
 }
-.tb-btn-bbg:active,
-.tb-btn-bbg.active,
-.open .dropdown-toggle.tb-btn-bbg {
-    background-image: none;
-}
-.tb-btn-bbg.disabled,
-.tb-btn-bbg[disabled],
-fieldset[disabled] .tb-btn-bbg,
-.tb-btn-bbg.disabled:hover,
-.tb-btn-bbg[disabled]:hover,
-fieldset[disabled] .tb-btn-bbg:hover,
-.tb-btn-bbg.disabled:focus,
-.tb-btn-bbg[disabled]:focus,
-fieldset[disabled] .tb-btn-bbg:focus,
-.tb-btn-bbg.disabled:active,
-.tb-btn-bbg[disabled]:active,
-fieldset[disabled] .tb-btn-bbg:active,
-.tb-btn-bbg.disabled.active,
-.tb-btn-bbg[disabled].active,
-fieldset[disabled] .tb-btn-bbg.active {
-    border-color: transparent;
-    background-color: #db3332;
-}
 
 .tb-btn-bb {
     padding: 20px 30px !important;
@@ -191,6 +168,54 @@ fieldset[disabled] .tb-btn-bbg.active {
     transition: all .3s;
     font-weight: 400;
 }
+
+.twtr-btn {
+    padding: 20px 30px !important;
+    margin: 20px 0 !important;
+    line-height: 10px !important;
+    border-color: #fff;
+    border-radius: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: lighter !important;
+    color: #fff !important;
+    background-color: transparent;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    font-weight: normal !important;
+    text-transform: none;
+}
+
+
+/****************************************************/
+/***** Exraneous BUTTONS (bootstrapped example) *****/
+/****************************************************/
+
+/*.tb-btn-bbg:active,
+.tb-btn-bbg.active,
+.open .dropdown-toggle.tb-btn-bbg {
+    background-image: none;
+}
+.tb-btn-bbg.disabled,
+.tb-btn-bbg[disabled],
+fieldset[disabled] .tb-btn-bbg,
+.tb-btn-bbg.disabled:hover,
+.tb-btn-bbg[disabled]:hover,
+fieldset[disabled] .tb-btn-bbg:hover,
+.tb-btn-bbg.disabled:focus,
+.tb-btn-bbg[disabled]:focus,
+fieldset[disabled] .tb-btn-bbg:focus,
+.tb-btn-bbg.disabled:active,
+.tb-btn-bbg[disabled]:active,
+fieldset[disabled] .tb-btn-bbg:active,
+.tb-btn-bbg.disabled.active,
+.tb-btn-bbg[disabled].active,
+fieldset[disabled] .tb-btn-bbg.active {
+    border-color: transparent;
+    background-color: #db3332;
+}
+
 .tb-btn-bb:active,
 .tb-btn-bb.active,
 .open .dropdown-toggle.tb-btn-bb {
@@ -213,4 +238,4 @@ fieldset[disabled] .tb-btn-bb:active,
 fieldset[disabled] .tb-btn-bb.active {
     border-color: #fff;
     background-color: transparent;
-}
+}*/
