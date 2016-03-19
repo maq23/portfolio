@@ -104,6 +104,20 @@ a:hover {
     text-decoration: none;
 }
 
+#map {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 100%;
+    border: ridge;
+    border-color: #ff99ff;
+}
+
+
 /*****************************/
 /***** BUTTONS *****/
 /*****************************/

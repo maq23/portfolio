@@ -1,12 +1,21 @@
 --------------------------------
 
 Portfolio:  William McConnell
-Date: Feb 2016
+Date: Mar 2016
 
 --------------------------------
 
-Project 2 for <codelouisville>
+Project  for <codelouisville>
 Front End Cohort
 Jan 2016
 
 --------------------------------
+
+Project to meet following requirements:
+
+*  Use HTML, CSS, JavaScript/jQuery
+*  Responsive design
+*  Implement and API
+*  Implement a JavaScript framework
+
+
