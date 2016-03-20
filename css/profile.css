@@ -5,12 +5,14 @@ h1 {
     font-size: 48px;
     color: #fff;
 }
+
 h2 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: 38px;
     color: #fff;
 }
+
 h3 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -18,19 +20,23 @@ h3 {
     font-weight: lighter;
     color: #fff;
 }
+
 p {
     font-family: 'Lato', sans-serif;
     color: #fff;
     font-size: 1em;
 }
+
 a {
     color: #eb4847;
 }
+
 a:hover {
     color: #eb4847;
 }
+
 #tb-imagebg {
-    background: #fff url('../img/mnlth.jpg') center;
+    background: #fff url("../img/mnlth.jpg") center;
     background-attachment: scroll;
     background-position: center center;
     background-repeat: none;
@@ -44,12 +50,14 @@ a:hover {
     height: 2000px;
     z-index: 1;
 }
+
 .tb-content {
     color: #ffffff;
     position: relative;
     z-index: 2;
     padding: 250px 0;
 }
+
 .tb-content-bg {
     color: #888;
     position: relative;
@@ -57,6 +65,7 @@ a:hover {
     background-color: #402258; --#eb4847
     padding: 250px 0;
 }
+
 .tb-footer {
     text-transform: uppercase;
     font-weight: 1000;
@@ -70,6 +79,7 @@ a:hover {
     height: 100px;
     width: 100%;
 }
+
 .tb-underline-white {
     width: 15%;
     height: 1px;
@@ -138,6 +148,7 @@ a:hover {
     font-weight: normal !important;
     text-transform: uppercase;
 }
+
 .tb-btn-bbg:hover,
 .tb-btn-bbg:focus,
 .tb-btn-bbg:active,
@@ -169,6 +180,7 @@ a:hover {
     font-weight: normal !important;
     text-transform: uppercase;
 }
+
 .tb-btn-bb:hover,
 .tb-btn-bb:focus,
 .tb-btn-bb:active,
@@ -201,7 +213,21 @@ a:hover {
     text-transform: none;
 }
 
+@media (max-width: 600px) {
 
+    #map {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 100%;
+    border: ridge;
+    border-color: #ff99ff;
+    }
+}
 /****************************************************/
 /***** Exraneous BUTTONS (bootstrapped example) *****/
 /****************************************************/

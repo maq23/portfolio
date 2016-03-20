@@ -17,9 +17,6 @@
 </head>
 <body>
 
-<script src="js/bootstrap.min.js"></script>
-<script src="js/parallax.js"></script>
-
 <div id="tb-imagebg"></div>
 <div class="tb-content">
     <div class="container">
@@ -110,13 +107,8 @@
                 <!-- <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Mack McConnell's profile on LinkedIn"> -->   
                 </a>
                 <p>or</p>
-                <p>Send a Carrier Pigeon</p>
+                <a href="#map" >Send a Carrier Pigeon</a>
              </div>  
-                 
-
-
-
-             </div>
             </div>
         </div>
     </div>
@@ -128,29 +120,29 @@
                 <ul class="list-inline">
                     <li>&copy; 1970</li>
                     <li>|</li>
-                    <li>wm mcconnell</li>
-                    
+                    <li>wm mcconnell</li>  
                 </ul>
-
             </div>
-
         </div>
+    </div>   
 
+    <a name="map"></a>
+    <div id="map">
+        <script src="..js/twitter.js"></script>
+        <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 38.2540, lng: -85.7484},
+                zoom: 16
+            });}</script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZJ84f2zi2r5FkN-Fl4jVZjTbIBEnbC9s&callback=initMap"
+                async defer></script>
     </div>
-    <div id="map"></div>
-     <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 38.2540, lng: -85.7484},
-          zoom: 16
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZJ84f2zi2r5FkN-Fl4jVZjTbIBEnbC9s&callback=initMap"
-    async defer></script>
-</div>
 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/parallax.js"></script>
     
 </body>
 </html>

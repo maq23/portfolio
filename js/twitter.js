@@ -13,4 +13,11 @@ var map;
       }
 
      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZJ84f2zi2r5FkN-Fl4jVZjTbIBEnbC9s&callback=initMap"
-    async defer>
+    async defer></script>
+
+
+    //JSON resource for twitter timeline///
+    //var url="https://api.twitter.com/1.1/statuses/user_timeline.json"
+
+    
+    
