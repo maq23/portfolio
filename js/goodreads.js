@@ -1,14 +1,29 @@
-// ****** AJAX Request from GoodReads API ****** //
+// ****** Request to GoodReads API ****** //
 
 
-var url = "https://www.goodreads.com/book/isbn/0441172717?callback=myCallback&format=json&user_id=USER_ID";
+//*****GoogleMaps placeholder until GoodReads
+//*****get their act together
 
-$(document).ready(function() { 
-
-    // ****** AJAX ****** //
-    $.ajax({
-      url: url,
-      success: handleResult
+$(function () {
+    $("#btnShow").click(function () {
+        $("#dialog").dialog({
+            modal: true,
+            title: "here i am",
+            width: 600,
+            height: 400,
+            buttons: {
+                Close: function () {
+                    $(this).dialog('close');
+                }
+            },
+            open: function () {
+                var mapOptions = {
+                    center: new google.maps.LatLng(38.2540, -85.7484),
+                    zoom: 18,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map($("#dvMap")[0], mapOptions);
+            }
+        });
     });
-
-};
+});

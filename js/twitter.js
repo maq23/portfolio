@@ -3,6 +3,12 @@
 
 ////////AIzaSyDZJ84f2zi2r5FkN-Fl4jVZjTbIBEnbC9s//////////
 
+$("gmap").click(function() {
+  $("map").show("slow");
+});
+
+
+
 var map;
 
      function initMap() {
