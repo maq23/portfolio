@@ -8,6 +8,7 @@ $(function () {
     $("#btnShow").click(function () {
         $("#dialog").dialog({
             modal: true,
+            resizable: true,
             title: "here i am",
             width: 600,
             height: 400,
